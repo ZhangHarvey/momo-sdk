@@ -1,0 +1,47 @@
+{
+  "name": "momodani-sdk",
+  "version": "0.0.1",
+  "description": "momodani sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmqb/momodani-sdk.git"
+  },
+  "keywords": [
+    "momodani",
+    "momodani-sdk",
+    "ES2015",
+    "ES7"
+  ],
+  "author": "HarveyZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmqb/momodani-sdk/issues"
+  },
+  "homepage": "https://github.com/bmqb/momodani-sdk#readme",
+  "dependencies": {
+    "request": "^2.75.0",
+    "request-debug": "^0.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.7.7",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-istanbul": "^2.0.1",
+    "babel-plugin-transform-builtin-extend": "^1.1.0",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015-node4": "^2.1.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "chai": "^3.5.0",
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "isparta": "^4.0.0",
+    "nyc": "^8.3.0"
+  }
+}
