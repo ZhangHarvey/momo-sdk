@@ -4,7 +4,11 @@
   "description": "momodani sdk",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ava": "LOG_LEVEL=error NODE_ENV=test node --harmony ./node_modules/.bin/ava --verbose --serial",
+    "test": "./node_modules/.bin/nyc -a --reporter=text npm run ava",
+    "lint": "./node_modules/.bin/eslint src/**/*.js",
+    "build": "babel -d build/ src/",
+    "jsdoc": "./node_modules/.bin/jsdoc -c jsdoc.conf.json"
   },
   "repository": {
     "type": "git",
@@ -23,6 +27,7 @@
   },
   "homepage": "https://github.com/bmqb/momodani-sdk#readme",
   "dependencies": {
+    "node-uuid": "^1.4.7",
     "request": "^2.75.0",
     "request-debug": "^0.2.0"
   },
@@ -42,6 +47,7 @@
     "eslint": "^2.12.0",
     "eslint-config-airbnb": "^9.0.1",
     "isparta": "^4.0.0",
+    "jsdoc": "^3.4.2",
     "nyc": "^8.3.0"
   }
 }

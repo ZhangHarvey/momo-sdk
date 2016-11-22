@@ -1,5 +1,5 @@
-import SMS from './sms';
+import SMSClient from './sms_client';
 
 export {
-  SMS
+  SMSClient,
 };
