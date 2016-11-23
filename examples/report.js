@@ -1,6 +1,6 @@
 import { SMSClient } from '../src';
 
-const host = 'http://127.0.0.1';
+const host = 'http://127.0.0.1:3000';
 const smsClient = new SMSClient(host);
 
 // 发送状态上报接口
