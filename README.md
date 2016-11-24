@@ -9,8 +9,7 @@
 npm install momodani-sdk --save
 ```
 
-## APIS：
-
+## 功能：
 ### SMS短信相关：
 - mqSend: 队列普通发送
 - batchSend: 队列批量发送
