@@ -1,6 +1,8 @@
 # momodani-sdk
 [![npm version](https://badge.fury.io/js/momodani-sdk.svg)](https://badge.fury.io/js/momodani-sdk)
 [![Build Status](https://api.travis-ci.org/bmqb/momodani-sdk.svg?branch=master)](https://travis-ci.org/bmqb/momodani-sdk)
+[![codecov](https://codecov.io/gh/bmqb/momodani-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/bmqb/momodani-sdk)
+
 
 贝米钱包momodani服务sdk
 
