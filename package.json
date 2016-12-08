@@ -6,7 +6,7 @@
   "scripts": {
     "prepublish": "npm run build",
     "ava": "LOG_LEVEL=error NODE_ENV=test node --harmony ./node_modules/.bin/ava --verbose --serial",
-    "test": "./node_modules/.bin/nyc -a --reporter=text npm run ava",
+    "test": "./node_modules/.bin/nyc -a --reporter=text --reporter=lcov --reporter=html npm run ava",
     "lint": "./node_modules/.bin/eslint src/**/*.js",
     "build": "babel -d lib/ src/"
   },
